@@ -1,3 +1,5 @@
 FROM registry:2
 
 ENV REGISTRY_STORAGE_DELETE_ENABLED true
+
+RUN apk add curl
