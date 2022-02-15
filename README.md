@@ -1,6 +1,6 @@
 # registry-with-delete-enabled:2
 
-You may have noticed that the docker registry image is actually not CRUDable. It is merely CRUable, because you can't delete image tags from it by default.
+You may have noticed that the docker registry created by the official registry image is actually not CRUDable. It is merely CRUable, because you can't delete image tags from it by default.
 
 This is problematic for when you're using k3d, where custom registry configuration is a complicated nightmare.
 
